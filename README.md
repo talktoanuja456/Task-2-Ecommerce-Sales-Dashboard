@@ -8,6 +8,14 @@ Power BI Desktop
 Power Query
 
 DAX (Data Analysis Expressions)
+Total Sales = SUM(Sales[SalesAmount])
+
+Total Profit = SUM(Sales[Profit])
+
+Profit Margin = DIVIDE([Total Profit], [Total Sales], 0)
+
+Total Orders = COUNTROWS(Sales)
+
 
 📈 Key Features:
 Cleaned and transformed raw data
